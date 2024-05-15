@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mimi's Persoonlijke Webpagina</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #79b4b7;
+            padding: 20px 0;
+            text-align: center;
+            color: #fff;
+        }
+        h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #557164;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            padding: 0 20px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+        }
+        footer {
+            background-color: #79b4b7;
+            padding: 10px 0;
+            text-align: center;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mimi's Persoonlijke Webpagina</h1>
+    </header>
+    <nav>
+        <a href="#about">Over Mimi</a> |
+        <a href="#interests">Interesses</a>
+    </nav>
+    <section id="about">
+        <h2>Over Mimi</h2>
+        <p>Hallo! Mijn naam is Mimi en ik ben een liefhebber van de natuur en boeken. Op deze pagina deel ik graag mijn passies met je!</p>
+    </section>
+    <section id="interests">
+        <h2>Mijn Interesses</h2>
+        <p>Als fervent lezer geniet ik ervan om me te verdiepen in allerlei soorten boeken, vooral als ze over de natuur gaan. Ik houd van de esthetiek van de natuur en ik vind het heerlijk om te genieten van rustige momenten in de buitenlucht.</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Mimi's Persoonlijke Webpagina - Alle rechten voorbehouden.</p>
+    </footer>
+</body>
+</html>
